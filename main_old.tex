@@ -1,0 +1,48 @@
+
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{lipsum}
+
+\newlength\Questionwd
+\setlength\Questionwd{2.8cm}
+\newlength\Innerlsep
+\setlength\Innerlsep{3pt}
+
+% definition of the theorem style
+\newtheoremstyle{mystyle}
+ {\topsep}{\topsep}
+ {\large\itshape%
+ \parshape 2 0cm \linewidth \dimexpr\Questionwd-3pt\relax\dimexpr\linewidth-\Questionwd+3pt\relax%
+}
+   {}{\bfseries}{}{0em}
+      {\makebox[\dimexpr\Questionwd-\Innerlsep\relax][l]{%
+	          \thmname{#1}~\thmnumber{#2}\hfill}%
+		    }
+
+    % we use the previously defined style for the definition of the new theorem environment
+   % built with the mdframed package
+    \theoremstyle{mystyle}
+   \newmdtheoremenv[
+      leftmargin=-\Questionwd,
+        rightmargin=-8pt,
+  innerleftmargin=\Innerlsep,
+    linecolor=black!12,
+      backgroundcolor=black!12,
+      skipabove=0.65cm,
+ skipbelow=0.20cm
+ ]{question}{Question}
+ 
+ \begin{document}
+ \begin{question}
+  The text of the first question, which spans over more than one line, will be placed here.
+ \end{question}
+	  \lipsum[2]
+  \begin{question}
+The second question text will be placed here.
+	  \end{question}
+	  \lipsum[2]
+
+  \end{document}
+
+
