@@ -3,7 +3,7 @@
 \usepackage{lipsum}
 \usepackage{tcolorbox}
 
-\usepackage[framemethod=TikZ]{mdframed}
+%\usepackage[framemethod=TikZ]{mdframed}
 \input{preamble}
 
 \usepackage{tikz}\usetikzlibrary{shapes.misc}
@@ -13,6 +13,19 @@
 \usetikzlibrary{shapes.geometric,positioning}
 
 \makeatletter
+
+\newcommand\myquote[2]{%
+	\begin{tikzpicture}
+	\node [rectangle, 
+	rounded corners, 
+	text centered, 
+	draw=black, 
+	dashed, 
+	font=\normalsize,
+	fill=white, 
+	text width=1.0\textwidth] at (0,0) {"#1" \\ \textbf{#2}};
+	\end{tikzpicture}
+	}
 \newcommand\resumesection[1]{%
         \tikz[baseline,trim left=0.0cm, trim right=0cm] {
         %\fill [black!80] (0cm,-1.5ex) rectangle (\textwidth,3.5ex);
@@ -50,6 +63,22 @@
 	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#2};
 }}
 
+
+\newcommand\fone{\textsuperscript{$*$}}
+\newcommand\ftwo{\textsuperscript{$\dagger$}}
+\newcommand\fthree{\textsuperscript{$\ddagger$}}
+\newcommand\ffour{\textsuperscript{$\S$}}
+\newcommand\ffive{\textsuperscript{$||$}}
+\newcommand\fsix{\textsuperscript{$\mathparagraph$}}
+
+\newcommand\none{\textsuperscript{1}}
+\newcommand\ntwo{\textsuperscript{2}}
+\newcommand\nthree{\textsuperscript{3}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills (color, black0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand\highskillbw{
 	\tikz\draw[black,fill=black] (0,0) circle (.5ex);
 	}
@@ -82,6 +111,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+\normalsize
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Header
@@ -115,12 +145,30 @@
 \input{expertise_areas_bw}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awards Section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{awards_and_honors_section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Afilliations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{affiliations_section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Certifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{certifications_section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Education Section
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{education_section}
 
-\newpage
+%\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Publication Section
