@@ -9,8 +9,8 @@ pdf=main.pdf
 
 # comiple resume
 $xe $tex
-$bi $bcf
-$xe $tex
+#$bi $bcf
+#$xe $tex
 
-gnome-open $pdf
+open $pdf
 #gnome-open $pdf
