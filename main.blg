@@ -1,21 +1,21 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'main.blg'
-[77] biber-darwin:303> INFO - === Thu Sep 28, 2017, 13:32:24
-[112] Biber.pm:359> INFO - Reading 'main.bcf'
-[269] Biber.pm:835> INFO - Found 15 citekeys in bib section 0
-[295] Biber.pm:3670> INFO - Processing section 0
-[328] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[331] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[343] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliography.bib'
-[394] Utils.pm:164> WARN - month field '12~29' in entry 'koch2016system' is not an integer - this will probably not sort properly.
-[395] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/lp/k5fbbxv12rqbj9ckb3_wr1080000gr/T/KyN52oQMEU/bibliography.bib_39706.utf8, line 103, warning: undefined macro "june"
-[401] Utils.pm:164> WARN - month field 'oct' in entry 'nedpc' is not an integer - this will probably not sort properly.
-[402] Utils.pm:164> WARN - month field 'oct' in entry 'ieee_nss_main' is not an integer - this will probably not sort properly.
-[406] Utils.pm:164> WARN - month field 'nov' in entry 'caari_2016_main' is not an integer - this will probably not sort properly.
-[471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[471] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[471] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[498] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[502] bbl.pm:712> INFO - Output to main.bbl
-[502] Biber.pm:109> INFO - WARNINGS: 5
+[80] biber-darwin:303> INFO - === Thu Sep 28, 2017, 17:07:01
+[115] Biber.pm:359> INFO - Reading 'main.bcf'
+[274] Biber.pm:835> INFO - Found 15 citekeys in bib section 0
+[300] Biber.pm:3670> INFO - Processing section 0
+[332] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[337] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[347] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliography.bib'
+[399] Utils.pm:164> WARN - month field '12~29' in entry 'koch2016system' is not an integer - this will probably not sort properly.
+[399] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/lp/k5fbbxv12rqbj9ckb3_wr1080000gr/T/sI7eUIGxIt/bibliography.bib_43343.utf8, line 103, warning: undefined macro "june"
+[405] Utils.pm:164> WARN - month field 'oct' in entry 'nedpc' is not an integer - this will probably not sort properly.
+[406] Utils.pm:164> WARN - month field 'oct' in entry 'ieee_nss_main' is not an integer - this will probably not sort properly.
+[409] Utils.pm:164> WARN - month field 'nov' in entry 'caari_2016_main' is not an integer - this will probably not sort properly.
+[477] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[477] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[477] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[477] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[504] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[508] bbl.pm:712> INFO - Output to main.bbl
+[508] Biber.pm:109> INFO - WARNINGS: 5

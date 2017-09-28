@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  28 SEP 2017 13:32
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  28 SEP 2017 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1545,24 +1545,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
  [][][][]\TU/Fontin.otf(0)/bx/n/10 Milwaukee, Wisconsin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
  [][][][]\TU/Fontin.otf(0)/bx/n/10 Madison, Wisconsin
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 94--154
+Underfull \hbox (badness 10000) in paragraph at lines 104--154
 
  []
 
+(./expertise_areas_bw.tex
 LaTeX Font Info:    Font shape `TU/Fontin.otf(0)/m/sl' in size <10> not availab
 le
 (Font)              Font shape `TU/Fontin.otf(0)/m/it' tried instead on input l
-ine 155.
+ine 1.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 12.0pt.
@@ -1575,16 +1577,16 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 [1
 
-] (./expertise_areas_bw.tex
-Overfull \hbox (15.21667pt too wide) in paragraph at lines 26--45
+]
+Overfull \hbox (15.21667pt too wide) in paragraph at lines 27--46
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for TU+ptm on input line 53.
-LaTeX Font Info:    No file TUptm.fd. on input line 53.
+LaTeX Font Info:    Try loading font information for TU+ptm on input line 54.
+LaTeX Font Info:    No file TUptm.fd. on input line 54.
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 53.
+(Font)              using `TU/lmr/m/n' instead on input line 54.
 
 ) (./awards_and_honors_section.tex
 
@@ -1592,12 +1594,12 @@ LaTeX Font Warning: Font shape `TU/Fontin.otf(0)/bx/it' undefined
 (Font)              using `TU/Fontin.otf(0)/bx/n' instead on input line 7.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 3--180
+Underfull \hbox (badness 10000) in paragraph at lines 3--181
 
  []
 
 (./affiliations_section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--186
+Underfull \hbox (badness 10000) in paragraph at lines 3--187
 
  []
 
@@ -1625,12 +1627,58 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+[3] (./references.tex (./header.tex
+Overfull \vbox (1.50005pt too high) detected at line 18
+ []
+
+
+Overfull \hbox (2.36911pt too wide) in paragraph at lines 19--19
+[]\TU/Fontin.otf(0)/m/n/8 Address:| 
+ []
+
+
+Overfull \hbox (2.36911pt too wide) in paragraph at lines 19--19
+[]\TU/Fontin.otf(0)/m/n/8 Address:| 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ [][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+ [][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+ [][][][]
+ []
+
+
+Overfull \hbox (5.23622pt too wide) in paragraph at lines 64--64
+[][][]\TU/Fontin.otf(0)/m/n/10 suryanarayanan.kaushik@ge.com[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+ [][][][]
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 222.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1640,12 +1688,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41682 strings out of 493005
- 805528 string characters out of 6134596
- 1346940 words of memory out of 5000000
- 45132 multiletter control sequences out of 15000+600000
+ 41689 strings out of 493005
+ 805624 string characters out of 6134596
+ 1346980 words of memory out of 5000000
+ 45134 multiletter control sequences out of 15000+600000
  6951 words of font info for 53 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 54i,12n,73p,10434b,4386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,16n,73p,10434b,4386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (4 pages).
