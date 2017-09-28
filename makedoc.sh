@@ -12,5 +12,5 @@ $xe $tex
 $bi $bcf
 $xe $tex
 
-#open $pdf
-gnome-open $pdf
+open $pdf
+#gnome-open $pdf
