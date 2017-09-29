@@ -1,20 +1,20 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'resume_main.blg'
-[42] biber:290> INFO - === Fri Sep 29, 2017, 11:21:42
+[43] biber:290> INFO - === Fri Sep 29, 2017, 11:46:41
 [140] Biber.pm:352> INFO - Reading 'resume_main.bcf'
-[297] Biber.pm:777> INFO - Found 15 citekeys in bib section 0
+[296] Biber.pm:777> INFO - Found 15 citekeys in bib section 0
 [307] Biber.pm:3494> INFO - Processing section 0
-[318] Biber.pm:3658> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
-[353] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
-[374] bibtex.pm:1037> INFO - Found BibTeX data source '../includes/bibliography.bib'
-[405] Utils.pm:149> WARN - BibTeX subsystem: /tmp/RjsSheiWvy/bibliography.bib_18491.utf8, line 103, warning: undefined macro "june"
-[418] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_paper' cannot be null, deleting it
-[418] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_jrt_paper' cannot be null, deleting it
-[419] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_main' cannot be null, deleting it
-[448] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[448] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[448] Biber.pm:3307> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[449] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
-[469] bbl.pm:526> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
-[528] bbl.pm:619> INFO - Output to resume_main.bbl
-[529] Biber.pm:109> INFO - WARNINGS: 4
+[319] Biber.pm:3658> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
+[354] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
+[376] bibtex.pm:1037> INFO - Found BibTeX data source '../includes/bibliography.bib'
+[403] Utils.pm:149> WARN - BibTeX subsystem: /tmp/kA8JY3MjZ1/bibliography.bib_19627.utf8, line 103, warning: undefined macro "june"
+[415] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_paper' cannot be null, deleting it
+[415] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_jrt_paper' cannot be null, deleting it
+[415] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_main' cannot be null, deleting it
+[445] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[445] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[445] Biber.pm:3307> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[445] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
+[466] bbl.pm:526> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
+[522] bbl.pm:619> INFO - Output to resume_main.bbl
+[522] Biber.pm:109> INFO - WARNINGS: 4
