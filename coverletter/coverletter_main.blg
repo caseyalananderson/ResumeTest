@@ -1,5 +1,17 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'coverletter_main.blg'
-[43] biber:290> INFO - === Fri Sep 29, 2017, 11:47:15
-[140] Biber.pm:352> INFO - Reading 'coverletter_main.bcf'
-[289] Utils.pm:149> WARN - No data sources defined!
+[40] biber:290> INFO - === Fri Sep 29, 2017, 19:43:14
+[132] Biber.pm:352> INFO - Reading 'coverletter_main.bcf'
+[275] Biber.pm:777> INFO - Found 2 citekeys in bib section 0
+[285] Biber.pm:3494> INFO - Processing section 0
+[296] Biber.pm:3658> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
+[326] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
+[345] bibtex.pm:1037> INFO - Found BibTeX data source '../includes/bibliography.bib'
+[350] Utils.pm:149> WARN - BibTeX subsystem: /tmp/iKXngwJp3K/bibliography.bib_1055.utf8, line 103, warning: undefined macro "june"
+[360] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[360] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[360] Biber.pm:3307> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[360] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
+[362] bbl.pm:526> INFO - Writing 'coverletter_main.bbl' with encoding 'UTF-8'
+[369] bbl.pm:619> INFO - Output to coverletter_main.bbl
+[369] Biber.pm:109> INFO - WARNINGS: 1
