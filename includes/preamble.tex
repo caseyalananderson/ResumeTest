@@ -87,42 +87,79 @@ ItalicFont = Fontin-Italic.otf
 	text width=1.0\textwidth] at (0,0) {"#1" \\ \textbf{#2}};
 	\end{tikzpicture}
 	}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% This is for resume section black & gray
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\newcommand\resumesection[1]{%
+%        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+%        \fill [black!80] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
+%
+%        \node [
+%	    text centered,
+%	    font = \bf\Large\scshape,
+%	    text width = \textwidth,
+%            rectangle,
+%	    align = center,
+%	    text = white,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+%}}
+%
+%\newcommand\resumesubsection[2]{%
+%        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+%        \fill [black!12] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
+%        \node [
+%	    text centered,
+%	    font = \it\large,
+%	    text width = \textwidth,
+%            rectangle,
+%	    align = center,
+%	    text = black!80,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+%
+%        \node [
+%	    text centered,
+%	    font = \it\bf\normalsize,
+%	    text width = \textwidth,
+%	    align = right,
+%	    text = black!80,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#2};
+%}}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% This is for resume section black & gray
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand\resumesection[1]{%
         \tikz[baseline,trim left=0.0cm, trim right=0cm] {
-        %\fill [black!80] (0cm,-1.5ex) rectangle (\textwidth,3.5ex);
-        \fill [black!80] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
 
         \node [
 	    text centered,
-	    font = \bf\large,
+	    font = \bf\huge\scshape,
 	    text width = \textwidth,
-            rectangle,
-	    align = center,
-	    text = white,
+	    align = left,
+	    text = black,
 	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
-}}
+}
+\\[-1mm]
+\rule{\textwidth}{0.1mm}
+\\[-\baselineskip]
+}
 
 \newcommand\resumesubsection[2]{%
         \tikz[baseline,trim left=0.0cm, trim right=0cm] {
-        %\fill [black!12] (0cm,-1.5ex) rectangle (\textwidth,3.5ex);
-        \fill [black!12] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
         \node [
 	    text centered,
-	    font = \bf\large,
+	    font = \it\Large,
 	    text width = \textwidth,
-            rectangle,
-	    align = center,
-	    text = black!80,
-	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+	    align = left,
+	    text = black,
+	    minimum height=3.0ex] at (0.5\textwidth,0.15) {{\bf#1}  {\normalsize\it#2}};
 
-        \node [
-	    text centered,
-	    font = \it\bf\normalsize,
-	    text width = \textwidth,
-	    align = right,
-	    text = black!80,
-	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#2};
-}}
+}
+\\[-\baselineskip]
+}
 
 
 \newcommand\fone{\textsuperscript{$*$}}
@@ -174,11 +211,11 @@ ItalicFont = Fontin-Italic.otf
 % Margins
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.55in}
 \addtolength{\oddsidemargin}{-.5in}
 \addtolength{\evensidemargin}{-.5in}
 \addtolength{\textwidth}{1.0in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{1.1in}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Header and Footer
