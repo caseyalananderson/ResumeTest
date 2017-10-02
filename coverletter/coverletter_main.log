@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.12.17)  29 SEP 2017 19:43
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.12.17)  1 OCT 2017 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1485,12 +1485,22 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 21.
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (../includes/coverletter.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
@@ -1512,12 +1522,12 @@ Package logreq Info: Writing requests to 'coverletter_main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 41164 strings out of 493589
- 785859 string characters out of 6145555
- 1250339 words of memory out of 5000000
- 44075 multiletter control sequences out of 15000+600000
- 6668 words of font info for 45 fonts, out of 8000000 for 9000
+ 41163 strings out of 493589
+ 785915 string characters out of 6145555
+ 1250140 words of memory out of 5000000
+ 44073 multiletter control sequences out of 15000+600000
+ 6676 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,10n,73p,10458b,4219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,10n,73p,10458b,4217s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on coverletter_main.pdf (1 page).
