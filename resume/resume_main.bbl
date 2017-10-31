@@ -43,7 +43,7 @@
       \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2012 3DS Simulia Community Conferece Proceedings}
+      \field{booktitle}{2012 3DS Simulia Community Conference Proceedings}
       \field{month}{05}
       \field{title}{Mesh Human Phantoms with MCNP (LA-UR-12-01307)}
       \field{venue}{Providence, Rhode Island}
@@ -310,23 +310,77 @@
       \field{venue}{Forth Worth, Texas}
       \field{year}{2016}
     \endentry
-    \entry{mcnp6_efforts_lacp}{inproceedings}{}
+    \entry{mcnp62_manual}{article}{}
       \name{author}{1}{}{%
-        {{hash=28a82787af20a0e59f678933c4b3c6aa}{%
-           family={Conference},
-           family_i={C\bibinitperiod},
-           given={Nuclear\bibnamedelimb Explosives\bibnamedelimb Design\bibnamedelima Physics},
-           given_i={N\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=b196cfab1f918dcd1cca1befa53fe5b8}{%
+           family={Editors},
+           family_i={E\bibinitperiod}}}%
       }
-      \strng{namehash}{28a82787af20a0e59f678933c4b3c6aa}
-      \strng{fullhash}{28a82787af20a0e59f678933c4b3c6aa}
-      \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \strng{namehash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{fullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the Nuclear Explovies Design Physics Conference 2011}
+      \field{journaltitle}{LANL report}
+      \field{title}{MCNP6.2 User's Manual}
+      \field{year}{2017}
+    \endentry
+    \entry{useful_prompt_lacp}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
+           prefix={et.},
+           prefix_i={e\bibinitperiod},
+           family={al},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ff841528da3ef62c11445502448d341}
+      \strng{fullhash}{5ff841528da3ef62c11445502448d341}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nuclear Weapons Effects User Group}
+      \field{title}{Useful prompt radiation applications and capabilities with MCNP6 (LA-CP-12-00490)}
+      \field{year}{2012}
+    \endentry
+    \entry{mcnp6_efforts_lacp}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=40d5bcccf16352613428090de5cf5548}{%
+           family={Bull},
+           family_i={B\bibinitperiod},
+           given={Jeff},
+           given_i={J\bibinitperiod}}}%
+        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
+           prefix={et.},
+           prefix_i={e\bibinitperiod},
+           family={al},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6866be04d74595924b29fad3f2840ce}
+      \strng{fullhash}{a6866be04d74595924b29fad3f2840ce}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Nuclear Explosives Design Physics Conference 2011}
       \field{month}{10}
-      \field{title}{MCNP6 Efforts for EMP, atmospheric disperal, and unstructured mesh tracking (LA-CP-01705)}
+      \field{title}{MCNP6 Efforts for EMP, atmospheric dispersal, and unstructured mesh tracking (LA-CP-01705)}
       \field{venue}{Los Alamos National Laboratory, Los Alamos, New Mexico}
       \field{year}{2012}
     \endentry
@@ -359,14 +413,6 @@
       \verb{url}
       \verb https://www.google.com/patents/WO2016209930A1?cl=en
       \endverb
-    \endentry
-    \entry{mcnp62_manual}{article}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{LANL report: TBD}
-      \field{title}{MCNP6.2 User's Manual}
-      \field{year}{2017}
     \endentry
     \entry{caari_2016_paper_2}{inproceedings}{}
       \name{author}{3}{}{%
@@ -453,14 +499,6 @@
       \field{title}{Speed and Memory Improvements to MCNP6 Delayed-Gamma Line Treatment (LA-UR-21050)}
       \field{venue}{San Fransisco, California}
       \field{year}{2017}
-    \endentry
-    \entry{useful_prompt_lacp}{misc}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
-      \field{labeltitlesource}{title}
-      \field{note}{Nuclear Weapons Effects User Group}
-      \field{title}{Useful prompt radiation applications and capabilities with MCNP6 (LA-CP-12-00490)}
-      \field{year}{2012}
     \endentry
   \endsortlist
 \endrefsection
